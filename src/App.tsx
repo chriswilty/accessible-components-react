@@ -78,12 +78,12 @@ const App = () => (
 			<div css={contentPanelCss}>
 				<SplitPanel
 					one={
-						<div css={{ backgroundColor: '#141414', flex: 1, overflow: 'auto' }}>
+						<div css={{ flex: 1, overflow: 'auto' }}>
 							<Tabs tabs={demoTabs} />
 						</div>
 					}
 					two={
-						<div css={{ backgroundColor: '#141414', flex: 1, overflow: 'auto' }}>
+						<div css={{ flex: 1, overflow: 'auto' }}>
 							<p>This is the bottom panel</p>
 							<p>Move along, nothing to see yet ...</p>
 						</div>

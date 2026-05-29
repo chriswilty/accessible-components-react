@@ -41,13 +41,14 @@ const tabNameCss = css({
 	'button:hover &, button:focus-visible &, button:active &': {
 		outlineWidth: '0.125rem',
 		outlineStyle: 'solid',
-		outlineColor: '#3366cc',
+		outlineColor: 'var(--outlineColor)',
 		borderRadius: '0.125rem',
 	},
 });
 
 const tabPanelCss = css({
 	border: '2px solid #999999',
+	outlineOffset: '-2px',
 	overflow: 'auto',
 	flexGrow: 1,
 });

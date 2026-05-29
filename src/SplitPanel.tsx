@@ -94,6 +94,7 @@ const SplitPanel: FC<SplitPanelProps> = ({ one, two }) => {
 				onKeyDown={onKeyDown}
 				css={{
 					height: '0.5rem',
+					marginInline: '0.125rem',
 					border: 'none',
 					color: 'transparent',
 					fontSize: 0,

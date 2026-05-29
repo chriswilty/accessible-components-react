@@ -25,7 +25,7 @@ const StyledList = styled.ul(
 		backgroundColor: 'var(--backgroundColorMain)',
 		...(fixed
 			? {
-					border: `0.125rem solid ${navHasFocus ? 'var(--colorMain)' : 'transparent'}`,
+					border: `0.125rem solid ${navHasFocus ? 'var(--outlineColor)' : 'transparent'}`,
 				}
 			: {
 					border: '0.0625rem solid var(--backgroundColorSecondary)',
@@ -69,7 +69,7 @@ const StyledAnchor = styled.a(({ expanded }: { expanded?: boolean }) => ({
 	outlineOffset: '0.125rem',
 	'&:hover, &:focus': {
 		backgroundColor: 'var(--backgroundColorSecondary)',
-		outline: '0.125rem solid var(--colorMain)',
+		outline: '0.125rem solid var(--outlineColor)',
 	},
 }));
 

@@ -4,8 +4,9 @@
 	font-weight: 400;
 
 	--backgroundColorMain: #101010;
-	--backgroundColorSecondary: #303030;
+	--backgroundColorSecondary: #404040;
 	--colorMain: rgba(255, 255, 255, 0.87);
+	--outlineColor: #3366cc;
 	color-scheme: light dark;
 	color: var(--colorMain);
 	background-color: var(--backgroundColorMain);
@@ -40,7 +41,7 @@ body * {
 @media (prefers-color-scheme: light) {
 	:root {
 		--backgroundColorMain: #efefef;
-		--backgroundColorSecondary: #dfdfdf;
+		--backgroundColorSecondary: #cfcfcf;
 		--colorMain: rgba(0, 0, 0, 0.87);
 	}
 }
